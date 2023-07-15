@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 // you should be able to use remix to interact with it. From remix, the contract owner should be able to mint tokens to a provided address. 
 // Any user should be able to burn and transfer tokens.
 
-contract MyToken {
+contract Token {
     
     uint256 public totalSupply;
     mapping(address => uint256) public balances;
